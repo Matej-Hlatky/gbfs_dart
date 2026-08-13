@@ -6,7 +6,16 @@ homepage:
 environment:
   sdk: ^3.7.2
 
+# Three Pony feeds publish an operator access key inside their auto-discovery
+# URL in the upstream GBFS catalog. It is public data, not a secret of ours, but
+# it trips pub's secret scanner in the generated catalog.
+false_secrets:
+  - /lib/src/systems.g.dart
+
 dependencies:
+  meta: ^1.19.0
 
 dev_dependencies:
+  csv: ^6.0.0
   lints:
+  test: ^1.25.0

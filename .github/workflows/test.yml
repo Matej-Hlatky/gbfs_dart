@@ -1,0 +1,60 @@
+name: Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      checks: write
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: 3.7.2
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Analyze
+        run: dart analyze
+
+      - name: Run tests
+        run: |
+          mkdir -p reports
+          dart test --reporter=github --file-reporter=json:reports/test-results.json
+
+      - name: Convert results to JUnit XML
+        if: always()
+        run: |
+          dart pub global activate junitreport
+          dart pub global run junitreport:tojunit \
+            --input reports/test-results.json \
+            --output reports/junit.xml
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: test-results
+          path: reports/
+
+      - name: Publish test report
+        if: always()
+        uses: dorny/test-reporter@v3
+        with:
+          name: Dart tests
+          path: reports/junit.xml
+          reporter: java-junit

@@ -1,0 +1,14 @@
+# A .pubignore replaces .gitignore for publishing, so the editor/tooling
+# excludes from .gitignore are repeated here.
+.idea/
+*.iml
+*.ipr
+*.iws
+.dart_tool/
+.metadata
+.DS_Store
+
+# Build-time only: the systems catalog reaches consumers as generated Dart
+# source in lib/src/systems.g.dart, so the CSV and its generator do not need to
+# be in the published archive. See README.md.
+tool/
