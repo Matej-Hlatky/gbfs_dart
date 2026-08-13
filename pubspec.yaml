@@ -1,0 +1,12 @@
+name: gbfs_dart
+description: "GBFS Dart Client"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+
+dev_dependencies:
+  lints:
