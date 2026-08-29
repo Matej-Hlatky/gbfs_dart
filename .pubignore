@@ -12,3 +12,11 @@
 # source in lib/src/systems.g.dart, so the CSV and its generator do not need to
 # be in the published archive. See README.md.
 tool/
+
+# Sample GBFS feeds the decoder tests read. Consumers never run our tests, and
+# the v3.0 station_information fixture alone is a GeoJSON polygon with thousands
+# of coordinates. CI checks out from git, so the tests still have them.
+test/fixtures/
+
+# Design notes and decision records are for maintainers, not consumers.
+doc/

@@ -58,5 +58,8 @@ class GbfsSystem {
   bool get requiresAuthentication => authenticationType != null;
 
   @override
-  String toString() => 'GbfsSystem($systemId, $name, $countryCode)';
+  String toString() {
+    return '$runtimeType(countryCode: $countryCode, name: $name, '
+        'location: $location, systemId: $systemId)';
+  }
 }

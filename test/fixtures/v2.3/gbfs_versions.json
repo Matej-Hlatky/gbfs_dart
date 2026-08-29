@@ -1,0 +1,13 @@
+{
+  "last_updated": 1751437263,
+  "ttl": 0,
+  "version": "2.3",
+  "data": {
+    "versions": [
+      {
+        "version": "2.2",
+        "url": "https://test.com/gbfs.json"
+      }
+    ]
+  }
+}

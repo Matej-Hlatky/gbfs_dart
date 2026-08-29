@@ -1,0 +1,22 @@
+{
+  "last_updated": 1606857968,
+  "ttl": 0,
+  "data": {
+    "bikes": [
+      {
+        "bike_id": "ghi789",
+        "lat": 48.8456,
+        "lon": 2.3846,
+        "is_reserved": false,
+        "is_disabled": false
+      },
+      {
+        "bike_id": "jkl012",
+        "lat": 48.8501,
+        "lon": 2.3701,
+        "is_reserved": 1,
+        "is_disabled": 1
+      }
+    ]
+  }
+}

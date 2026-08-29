@@ -111,5 +111,15 @@ void main() {
         expect(GbfsVersion.parse(version.version).version, version.version);
       }
     });
+
+    test('toString is the wire value, so messages read "GBFS 2.3"', () {
+      // Not '$runtimeType(...)': this enum models a value the spec defines, and
+      // interpolating it should not read "GBFS GbfsVersion.v2_3".
+      expect('${GbfsVersion.v2_3}', '2.3');
+      expect('${GbfsVersion.v3_0}', '3.0');
+      for (final version in GbfsVersion.values) {
+        expect(version.toString(), version.version, reason: version.name);
+      }
+    });
   });
 }

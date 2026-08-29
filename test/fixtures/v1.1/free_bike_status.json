@@ -1,0 +1,28 @@
+{
+  "last_updated": 1606857968,
+  "ttl": 0,
+  "version": "1.1",
+  "data": {
+    "bikes": [
+      {
+        "bike_id": "mno345",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "is_reserved": 0,
+        "is_disabled": 0,
+        "rental_uris": {
+          "android": "test://rentme/mno345",
+          "ios": "test://rentme/mno345",
+          "web": "https://test.com/rentme/mno345"
+        }
+      },
+      {
+        "bike_id": "pqr678",
+        "lat": 50.0875,
+        "lon": 14.4213,
+        "is_reserved": 1,
+        "is_disabled": 0
+      }
+    ]
+  }
+}

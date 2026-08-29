@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:meta/meta.dart';
 
 /// A released version of the General Bikeshare Feed Specification.
@@ -47,11 +48,10 @@ enum GbfsVersion implements Comparable<GbfsVersion> {
       final major = int.tryParse(parts[0]);
       final minor = parts.length == 2 ? int.tryParse(parts[1]) : 0;
       if (major != null && minor != null) {
-        for (final candidate in values) {
-          if (candidate.major == major && candidate.minor == minor) {
-            return candidate;
-          }
-        }
+        final match = values.firstWhereOrNull(
+          (candidate) => candidate.major == major && candidate.minor == minor,
+        );
+        if (match != null) return match;
       }
     }
     throw FormatException('Unknown GBFS version', value);
@@ -70,4 +70,14 @@ enum GbfsVersion implements Comparable<GbfsVersion> {
   bool operator >(GbfsVersion other) => compareTo(other) > 0;
 
   bool operator >=(GbfsVersion other) => compareTo(other) >= 0;
+
+  /// The canonical `major.minor` form, e.g. `2.3`.
+  ///
+  /// Like the other enums modelling a wire value, this returns that value rather
+  /// than `$runtimeType(...)`: interpolating a version into a message should read
+  /// `GBFS 2.3`, not `GBFS GbfsVersion.v2_3`.
+  @override
+  String toString() {
+    return version;
+  }
 }

@@ -1,6 +1,6 @@
 name: gbfs_dart
 description: "GBFS Dart Client"
-version: 0.0.1
+version: 0.1.0
 homepage:
 
 environment:
@@ -13,6 +13,12 @@ false_secrets:
   - /lib/src/systems.g.dart
 
 dependencies:
+  collection: ^1.19.0
+  # 2.1.0 is where Equatable became an `abstract mixin class`, so it can be used
+  # with `with Equatable`; EquatableMixin is deprecated as of that release.
+  equatable: ^2.1.0
+  http: ^1.4.0
+  intl: ^0.20.2
   meta: ^1.19.0
 
 dev_dependencies:
