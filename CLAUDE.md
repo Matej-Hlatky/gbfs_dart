@@ -13,14 +13,29 @@ dart test test/gbfs_version_test.dart          # one file
 dart test -n "normalizes the bare"             # one test or group, by substring
 dart run tool/generate_systems.dart            # regenerate the catalog from tool/systems.csv
 dart run tool/generate_systems.dart --fetch    # refresh the CSV from MobilityData first
-dart run tool/fetch_fixtures.dart              # refresh test/fixtures/ from the schema repo
-dart run bin/example.dart                      # live end-to-end read (SK/Bratislava by default)
+dart run tool/fetch_fixtures.dart              # refresh test/fixtures/ v2.3 and v3.0 from the schema repo
+dart run gbfs_dart:example                     # live end-to-end read (SK/Bratislava by default)
+dart run gbfs_dart:example FR Paris            # any country and city
 dart pub publish --dry-run                     # verifies .pubignore and false_secrets still hold
 ```
 
-`dart` may not be on `PATH`; this checkout is developed against the FVM SDK at
+`dart` is not on `PATH` in this checkout; use `fvm dart …` or the FVM SDK at
 `/Users/hlatky/fvm/versions/3.29.3/bin/dart`, which is Dart 3.7.2 and so matches
-what CI pins.
+what CI pins. CI (`.github/workflows/test.yml`) runs `dart analyze` and `dart test`
+on every push to `main` and every pull request; there is no formatting check, so
+run `dart format` yourself.
+
+`test/fixtures/` holds one directory per GBFS version. The v2.3 and v3.0 files are
+MobilityData's published examples, vendored by `tool/fetch_fixtures.dart` from the
+`gbfs-json-schema` repo's `testFixtures/` and re-encoded with two-space indent so
+upstream reformatting produces readable diffs. The v1.0 and v1.1 files are
+**hand-written** because upstream ships no v1 examples; they exist to exercise
+v1-only quirks such as numeric booleans, and the fetch script leaves them alone.
+Both scripts must be run from the package root.
+
+The runnable example is `bin/example.dart`, which `dart run gbfs_dart:example` runs.
+`example/README.md` exists only so pub.dev's Example tab has something to show; it
+points at `bin/example.dart` rather than duplicating it, so keep the two in step.
 
 ## Architecture
 
@@ -30,7 +45,9 @@ reads live feeds over `package:http`.
 
 Layout under `lib/src/`: `model/` (public data classes), `decode/` (JSON readers,
 the envelope decoder and the per-feed decoders, all `@internal`), `http/` (the
-caching client and the fetcher), `catalog/` (location matching).
+caching client and the fetcher), `catalog/` (location matching; `foldCity`,
+`foldLocation` and `matchesCity` are exported from the barrel so consumers can
+reproduce the matching themselves).
 
 **One type per file under `model/`**, named after the type it declares. The only
 exception is the `GbfsLocalizedStrings` extension, which sits beside
@@ -104,7 +121,10 @@ Only an unrecognisable *major* throws `GbfsUnsupportedVersionException`.
 `GbfsCacheClient` is an `http.BaseClient` decorator handling HTTP semantics
 (conditional requests, `Cache-Control`, `no-store`), and it is **private** — the
 public knob is `GbfsCache`, so the HTTP plumbing never enters the API, for the same
-reason `_GbfsClient` is private.
+reason `_GbfsClient` is private. Storage is behind the `GbfsCacheStore` interface;
+`GbfsCache.inMemory()` uses the bundled `GbfsMemoryCacheStore`, an LRU bounded by
+entry count and total bytes, and consumers can supply their own store for
+persistence. Caching is off unless a `GbfsCache` is passed to `GbfsClient`.
 
 GBFS freshness lives in the payload (`ttl`, `last_updated`), which a `BaseClient`
 seeing only bytes cannot read. Rather than decode the JSON twice, `FeedFetcher`
@@ -167,7 +187,7 @@ Consumers can `implements GbfsClient` (for fakes) but not `extends` it; the
 
 ### The catalog is generated, not loaded
 
-`lib/src/systems.g.dart` holds 1536 `GbfsSystem` entries generated from
+`lib/src/systems.g.dart` holds 1540 `GbfsSystem` entries generated from
 `tool/systems.csv`. Both files are committed. **Never hand-edit the `.g.dart`** —
 change `tool/generate_systems.dart` or the CSV and regenerate.
 
@@ -234,18 +254,21 @@ covered by tests:
   folds case and diacritics and strips a `, XX` suffix. It matches whole strings
   only, so `Berlin` must not find `Berlingen`. **Prague is absent entirely**, which
   is why `availability` takes an `only:` escape hatch.
-- **A country/city pair maps to several systems** — 237 locations, up to 13 for
+- **A country/city pair maps to several systems** — 226 locations, up to 13 for
   `CH`/`Switzerland`; `FR`/`Paris` returns 6 operators on 5 different GBFS
   versions at once. Aggregate reads fan out and must tolerate partial failure.
-- **`autoDiscoveryUrl` is unique across all 1536 rows** while `systemId` is not, so
+- **`autoDiscoveryUrl` is unique across all 1540 rows** while `systemId` is not, so
   it is the identity and cache key. Five of them carry an API key in the query
   string, so never drop the query.
 - **The catalog cannot tell you which version a feed serves.** `supportedVersions`
   often lists several and the single `autoDiscoveryUrl` points at one of them; read
   the version from the fetched `gbfs.json`.
 - **Only 5 systems authenticate**, all by header, `authenticationType` always the
-  string `"2"`, and one wants two headers (`DB-Client-Id|DB-Api-Key`) — hence the
+  string `"2"`, and the two DB systems want two headers (`DB-Client-Id|DB-Api-Key`) — hence the
   `authHeaders` callback rather than a modelled auth scheme.
+
+The counts above are as of the CSV committed in September 2026; recheck them
+against `tool/systems.csv` after `--fetch` rather than trusting them.
 
 ## Publishing constraints
 

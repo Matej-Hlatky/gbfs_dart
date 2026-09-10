@@ -2,7 +2,7 @@
 //
 // Regenerate with: dart run tool/generate_systems.dart
 // Source: https://raw.githubusercontent.com/MobilityData/gbfs/master/systems.csv
-// Systems: 1536
+// Systems: 1540
 
 import 'gbfs_system.dart';
 import 'gbfs_version.dart';
@@ -554,6 +554,15 @@ const List<GbfsSystem> gbfsSystems = [
     systemId: 'dott-liege',
     url: 'https://ridedott.com',
     autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/liege/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'BE',
+    name: 'Dott Mons',
+    location: 'Mons',
+    systemId: 'dott-mons',
+    url: 'https://ridedott.com',
+    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/mons/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -2551,16 +2560,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/dusseldorf/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Elmshorn',
-    location: 'Elmshorn',
-    systemId: 'dott-elmshorn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/elmshorn/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -7529,6 +7528,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'FR',
+    name: 'Lime Les Lilas',
+    location: 'Les Lilas',
+    systemId: 'lime_leslilas',
+    url: 'https://www.li.me',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/leslilas/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
     name: 'Lime Lille',
     location: 'Lille',
     systemId: 'lime_lille',
@@ -7559,6 +7568,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'FR',
+    name: 'Lime Nogent-sur-Marne',
+    location: 'Nogent-sur-Marne',
+    systemId: 'lime_nogent',
+    url: 'https://www.li.me',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/nogent/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
     name: 'Lime Paris',
     location: 'Paris',
     systemId: 'lime_paris',
@@ -7585,6 +7604,15 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://lovelolibreservice.fr/',
     autoDiscoveryUrl:
         'https://gbfs.urbansharing.com/lovelolibreservice.fr/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Marguerite - Véhicule en libre-service à Nantes',
+    location: 'Nantes',
+    systemId: 'Marguerite_FR_Nantes',
+    url: 'https://www.imarguerite.com',
+    autoDiscoveryUrl: 'https://www.imarguerite.com/opendata/gbfs/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -12092,6 +12120,16 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://ridedott.com',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/warsaw/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'PL',
+    name: 'Dott Wołomin',
+    location: 'Wołomin',
+    systemId: 'dott-wołomin',
+    url: 'https://ridedott.com/',
+    autoDiscoveryUrl:
+        'https://gbfs.api.ridedott.com/public/v2/wo%C5%82omin/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
