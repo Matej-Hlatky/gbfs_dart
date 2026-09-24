@@ -5215,6 +5215,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'ES',
+    name: 'MugiBIKE (Vitoria)',
+    location: 'Vitoria-Gasteiz',
+    systemId: 'mugibike_vitoria',
+    url: 'https://www.mugibike.eus',
+    autoDiscoveryUrl:
+        'https://gbfs.partners.fifteen.eu/gbfs/2.2/vitoria/en/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'ES',
     name: 'nextbike BiciLOG',
     location: 'Logroño',
     systemId: 'nextbike_ej',
@@ -7810,8 +7820,18 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'FR',
+    name: 'Pony Marseille',
+    location: 'Marseille',
+    systemId: 'pony_Marseille',
+    url: 'https://getapony.com/',
+    autoDiscoveryUrl:
+        'https://proxy.transport.data.gouv.fr/resource/pony-marseille-gbfs/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
     name: 'Pony Nice',
-    location: 'Nice, FR',
+    location: 'Nice',
     systemId: 'pony_Nice',
     url: 'https://getapony.com/',
     autoDiscoveryUrl:
@@ -10596,53 +10616,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'NO',
-    name: 'Dott As',
-    location: 'As',
-    systemId: 'dott-as',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/as/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Asker',
-    location: 'Asker',
-    systemId: 'dott-asker',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/asker/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Bodø',
-    location: 'Bodø',
-    systemId: 'dott-bodø',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/bodø/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Drammen',
-    location: 'Drammen',
-    systemId: 'dott-drammen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/drammen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Lillestrøm',
-    location: 'Lillestrøm',
-    systemId: 'dott-lillestrøm',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lillestrøm/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
     name: 'Dott Malvik',
     location: 'Malvik',
     systemId: 'dott-malvik',
@@ -10669,16 +10642,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/orkanger/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Sandefjord',
-    location: 'Sandefjord',
-    systemId: 'dott-sandefjord',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/sandefjord/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -11071,9 +11034,8 @@ const List<GbfsSystem> gbfsSystems = [
     location: 'Oslo',
     systemId: 'oslobysykkel',
     url: 'https://oslobysykkel.no/',
-    autoDiscoveryUrl:
-        'https://api.entur.io/mobility/v2/gbfs/v3/oslobysykkel/gbfs',
-    supportedVersions: [GbfsVersion.v3_0],
+    autoDiscoveryUrl: 'https://gbfs.urbansharing.com/oslobysykkel.no/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'NO',
@@ -11199,8 +11161,8 @@ const List<GbfsSystem> gbfsSystems = [
     systemId: 'trondheimbysykkel',
     url: 'https://trondheimbysykkel.no/',
     autoDiscoveryUrl:
-        'https://api.entur.io/mobility/v2/gbfs/v3/trondheimbysykkel/gbfs',
-    supportedVersions: [GbfsVersion.v3_0],
+        'https://gbfs.urbansharing.com/trondheimbysykkel.no/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'NO',
@@ -12998,6 +12960,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'SK',
+    name: 'Bajk Trnavskej župy',
+    location: 'Piešťany',
+    systemId: 'nextbike_zu',
+    url: 'https://nextbikeslovakia.com/',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_zu/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'SK',
     name: 'BikeKIA',
     location: 'Žilina',
     systemId: 'nextbike_ak',
@@ -13183,6 +13155,15 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.senicabajk.sk',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_av/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'SK',
+    name: 'White bikes',
+    location: 'Bratislava',
+    systemId: 'whitebikes_bratislava',
+    url: 'https://whitebikes.info/',
+    autoDiscoveryUrl: 'https://whitebikes.info/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -13547,6 +13528,15 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://mds.bird.co/gbfs/v2/public/washington-dc/gbfs.json',
     supportedVersions: [GbfsVersion.v1_1, GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'US',
+    name: 'BisParks BCycle',
+    location: 'Bismarck, ND',
+    systemId: 'bcycle_bismarck',
+    url: 'https://www.bisparks.org/bcycle',
+    autoDiscoveryUrl: 'https://gbfs.bcycle.com/bcycle_bismarck/gbfs.json',
+    supportedVersions: [GbfsVersion.v1_1],
   ),
   GbfsSystem(
     countryCode: 'US',
@@ -13957,6 +13947,15 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://data.lime.bike/api/partners/v2/gbfs/washington_dc/gbfs.json',
     supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'US',
+    name: 'Long Beach CA Bikeshare',
+    location: 'Long Beach, CA',
+    systemId: 'long_beach_ca_bikeshare',
+    url: 'https://www.longbeachbikeshare.com',
+    autoDiscoveryUrl: 'https://www.longbeachbikeshare.com/opendata/gbfs.json',
+    supportedVersions: [GbfsVersion.v1_0],
   ),
   GbfsSystem(
     countryCode: 'US',
