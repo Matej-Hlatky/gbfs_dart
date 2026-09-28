@@ -2,7 +2,7 @@
 //
 // Regenerate with: dart run tool/generate_systems.dart
 // Source: https://raw.githubusercontent.com/MobilityData/gbfs/master/systems.csv
-// Systems: 1540
+// Systems: 1541
 
 import 'gbfs_system.dart';
 import 'gbfs_version.dart';
@@ -5241,6 +5241,16 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.alsa-nextbike.es/leon/',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_sl/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'ES',
+    name: 'Roquebike',
+    location: 'Almería',
+    systemId: 'nextbike_ra',
+    url: 'https://www.nextbike.es/roquebike',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ra/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
