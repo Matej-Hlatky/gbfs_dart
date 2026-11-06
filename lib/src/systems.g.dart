@@ -2,7 +2,7 @@
 //
 // Regenerate with: dart run tool/generate_systems.dart
 // Source: https://raw.githubusercontent.com/MobilityData/gbfs/master/systems.csv
-// Systems: 1541
+// Systems: 1277
 
 import 'gbfs_system.dart';
 import 'gbfs_version.dart';
@@ -124,183 +124,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://citybikelinz.at/',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_al/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Baden bei Wien',
-    location: 'Baden bei Wien',
-    systemId: 'dott-baden-bei-wien',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/baden-bei-wien/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Bregenz',
-    location: 'Bregenz',
-    systemId: 'dott-bregenz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bregenz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Dornbirn',
-    location: 'Dornbirn',
-    systemId: 'dott-dornbirn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/dornbirn/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Feldkirchen bei Graz',
-    location: 'Feldkirchen bei Graz',
-    systemId: 'dott-feldkirchen-bei-graz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/feldkirchen-bei-graz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Innsbruck',
-    location: 'Innsbruck',
-    systemId: 'dott-innsbruck',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/innsbruck/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Klagenfurt',
-    location: 'Klagenfurt',
-    systemId: 'dott-klagenfurt',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/klagenfurt/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Klopein',
-    location: 'Carinthia',
-    systemId: 'dott-klopein',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/klopein/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Korneuburg',
-    location: 'Korneuburg',
-    systemId: 'dott-korneuburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/korneuburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Leoben',
-    location: 'Leoben',
-    systemId: 'dott-leoben',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/leoben/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Linz',
-    location: 'Linz',
-    systemId: 'dott-linz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/linz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Mödling',
-    location: 'Mödling',
-    systemId: 'dott-modling',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/modling/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Saint Anton am Arlberg',
-    location: 'Saint Anton am Arlberg',
-    systemId: 'dott-sankt-anton-am-arlberg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/sankt-anton-am-arlberg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Serfaus',
-    location: 'Serfaus',
-    systemId: 'dott-serfaus',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/serfaus/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Steyr',
-    location: 'Steyr',
-    systemId: 'dott-steyr',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/steyr/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Velden-Am-Worthersee',
-    location: 'Velden-Am-Worthersee',
-    systemId: 'dott-velden-am-worthersee',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/velden-am-worthersee/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Villach',
-    location: 'Villach',
-    systemId: 'dott-villach',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/villach/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Wels',
-    location: 'Wels',
-    systemId: 'dott-wels',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/wels/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'AT',
-    name: 'Dott Wiener-Neustadt',
-    location: 'Wiener-Neustadt',
-    systemId: 'dott-wiener-neustadt',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/wiener-neustadt/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -501,15 +324,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'BE',
-    name: 'Dott Aalst',
-    location: 'Aalst',
-    systemId: 'dott-aalst',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/aalst/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'BE',
     name: 'Dott Brussels',
     location: 'Brussels',
     systemId: 'dott-brussels',
@@ -535,16 +349,6 @@ const List<GbfsSystem> gbfsSystems = [
     systemId: 'dott-ghent',
     url: 'https://ridedott.com',
     autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/ghent/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'BE',
-    name: 'Dott Kortrijk',
-    location: 'Kortrijk',
-    systemId: 'dott-kortrijk',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kortrijk/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -1305,16 +1109,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'CH',
-    name: 'Dott Winterthur',
-    location: 'Winterthur',
-    systemId: 'dott-winterthur',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/winterthur/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'CH',
     name: 'Dott Zurich',
     location: 'Zurich',
     systemId: 'dott-zurich',
@@ -1831,6 +1625,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'CZ',
+    name: 'nextbike Olomouc',
+    location: 'Olomouc',
+    systemId: 'nextbike_ti',
+    url: 'https://www.nextbikeczech.com/',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ti/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'CZ',
     name: 'nextbike Opava',
     location: 'Opava',
     systemId: 'nextbike_tj',
@@ -2052,7 +1856,7 @@ const List<GbfsSystem> gbfsSystems = [
   GbfsSystem(
     countryCode: 'DE',
     name: 'AW-bike',
-    location: 'Remagen, DE',
+    location: 'Remagen',
     systemId: 'nextbike_rh',
     url: 'https://www.nextbike.de/aw-bike/',
     autoDiscoveryUrl:
@@ -2397,99 +2201,12 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Bielefeld',
-    location: 'Bielefeld',
-    systemId: 'dott-bielefeld',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bielefeld/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Bochum',
     location: 'Bochum',
     systemId: 'dott-bochum',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/bochum/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Bonn',
-    location: 'Bonn',
-    systemId: 'dott-bonn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/bonn/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Bremen',
-    location: 'Bremen',
-    systemId: 'dott-bremen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bremen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Bremerhaven',
-    location: 'Bremerhaven',
-    systemId: 'dott-bremerhaven',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bremerhaven/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Brunswick',
-    location: 'Braunschweig',
-    systemId: 'dott-brunswick',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/brunswick/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Brühl',
-    location: 'Brühl',
-    systemId: 'dott-bruhl',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/bruhl/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Böblingen',
-    location: 'Böblingen',
-    systemId: 'dott-boblingen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/boblingen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Celle',
-    location: 'Celle',
-    systemId: 'dott-celle',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/celle/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Chemnitz',
-    location: 'Chemnitz',
-    systemId: 'dott-chemnitz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/chemnitz/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -2504,56 +2221,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Cottbus',
-    location: 'Cottbus',
-    systemId: 'dott-cottbus',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/cottbus/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Darmstadt',
-    location: 'Darmstadt',
-    systemId: 'dott-darmstadt',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/darmstadt/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Detmold',
-    location: 'Detmold',
-    systemId: 'dott-detmold',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/detmold/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Dortmund',
-    location: 'Dortmund',
-    systemId: 'dott-dortmund',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/dortmund/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Duisburg',
-    location: 'Duisburg',
-    systemId: 'dott-duisburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/duisburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Dusseldorf',
     location: 'Dusseldorf',
     systemId: 'dott-dusseldorf',
@@ -2564,99 +2231,11 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Erfurt',
-    location: 'Erfurt',
-    systemId: 'dott-erfurt',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/erfurt/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Erlangen',
-    location: 'Erlangen',
-    systemId: 'dott-erlangen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/erlangen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Essen',
     location: 'Essen',
     systemId: 'dott-essen',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/essen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Flensburg',
-    location: 'Flensburg',
-    systemId: 'dott-flensburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/flensburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Friedrichshafen',
-    location: 'Friedrichshafen',
-    systemId: 'dott-friedrichshafen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/friedrichshafen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Gera',
-    location: 'Gera',
-    systemId: 'dott-gera',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/gera/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Gifhorn',
-    location: 'Gifhorn',
-    systemId: 'dott-gifhorn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gifhorn/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Gladbeck',
-    location: 'Gladbeck',
-    systemId: 'dott-gladbeck',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gladbeck/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Hamburg',
-    location: 'Hamburg',
-    systemId: 'dott-hamburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hamburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Hamm',
-    location: 'Hamm',
-    systemId: 'dott-hamm',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/hamm/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -2691,119 +2270,12 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Hennef',
-    location: 'Hennef',
-    systemId: 'dott-hennef',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hennef/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Herford',
-    location: 'Herford',
-    systemId: 'dott-herford',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/herford/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Herne',
-    location: 'Herne',
-    systemId: 'dott-herne',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/herne/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Herten',
-    location: 'Herten',
-    systemId: 'dott-herten',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/herten/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Hilden',
-    location: 'Hilden',
-    systemId: 'dott-hilden',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hilden/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Hildesheim',
-    location: 'Hildesheim',
-    systemId: 'dott-hildesheim',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hildesheim/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Ingolstadt',
-    location: 'Ingolstadt',
-    systemId: 'dott-ingolstadt',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ingolstadt/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Jena',
-    location: 'Jena',
-    systemId: 'dott-jena',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/jena/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Kaiserslautern',
     location: 'Kaiserslautern',
     systemId: 'dott-kaiserslautern',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/kaiserslautern/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Karlsruhe',
-    location: 'Karlsruhe',
-    systemId: 'dott-karlsruhe',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/karlsruhe/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Kassel',
-    location: 'Kassel',
-    systemId: 'dott-kassel',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kassel/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Kiel',
-    location: 'Kiel',
-    systemId: 'dott-kiel',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/kiel/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -2828,86 +2300,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Lindau',
-    location: 'Lindau',
-    systemId: 'dott-lindau',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lindau/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Ludwigsburg',
-    location: 'Ludwigsburg',
-    systemId: 'dott-ludwigsburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ludwigsburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Lübeck',
-    location: 'Lübeck',
-    systemId: 'dott-lubeck',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lubeck/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Mannheim',
-    location: 'Mannheim',
-    systemId: 'dott-mannheim',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/mannheim/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Minden',
-    location: 'Minden',
-    systemId: 'dott-minden',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/minden/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Monchengladbach',
-    location: 'Monchengladbach',
-    systemId: 'dott-monchengladbach',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/monchengladbach/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Monheim am Rhein',
-    location: 'Monheim am Rhein',
-    systemId: 'dott-monheim-am-rhein',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/monheim-am-rhein/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Mulheim an der Ruhr',
-    location: 'Mülheim',
-    systemId: 'dott-mulheim-an-der-ruhr',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/mulheim-an-der-ruhr/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Munich',
     location: 'Munich',
     systemId: 'dott-munich',
@@ -2928,64 +2320,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Neumünster',
-    location: 'Neumünster',
-    systemId: 'dott-neumunster',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/neumunster/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Neuss',
-    location: 'Neuss',
-    systemId: 'dott-neuss',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/neuss/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Nuremberg',
-    location: 'Nuremberg',
-    systemId: 'dott-nuremberg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/nuremberg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Osnabrück',
-    location: 'Osnabrück',
-    systemId: 'dott-osnabruck',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/osnabruck/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Paderborn',
-    location: 'Paderborn',
-    systemId: 'dott-paderborn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/paderborn/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Peine',
-    location: 'Peine',
-    systemId: 'dott-peine',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/peine/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Potsdam',
     location: 'Potsdam',
     systemId: 'dott-potsdam',
@@ -2996,191 +2330,12 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Dott Recklinghausen',
-    location: 'Recklinghausen',
-    systemId: 'dott-recklinghausen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/recklinghausen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Regensburg',
-    location: 'Regensburg',
-    systemId: 'dott-regensburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/regensburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Reutlingen',
-    location: 'Reutlingen',
-    systemId: 'dott-reutlingen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/reutlingen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Rheda-Wiedenbrück',
-    location: 'Rheda-Wiedenbrück',
-    systemId: 'dott-rheda-wiedenbruck',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/rheda-wiedenbruck/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Rheine',
-    location: 'Rheine',
-    systemId: 'dott-rheine',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/rheine/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Rostock',
-    location: 'Rostock',
-    systemId: 'dott-rostock',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/rostock/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Rüsselsheim',
-    location: 'Rüsselsheim',
-    systemId: 'dott-russelsheim',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/russelsheim/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Saarbrücken',
-    location: 'Saarbrücken',
-    systemId: 'dott-saarbrucken',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/saarbrucken/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Salzgitter',
-    location: 'Salzgitter',
-    systemId: 'dott-salzgitter',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/salzgitter/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Sankt Augustin',
-    location: 'Sankt Augustin',
-    systemId: 'dott-sankt-augustin',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/sankt-augustin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Solingen',
-    location: 'Solingen',
-    systemId: 'dott-solingen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/solingen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Dott Stuttgart',
     location: 'Stuttgart',
     systemId: 'dott-stuttgart',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/stuttgart/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Troisdorf',
-    location: 'Troisdorf',
-    systemId: 'dott-troisdorf',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/troisdorf/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Tübingen',
-    location: 'Tübingen',
-    systemId: 'dott-tubingen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tubingen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Ulm',
-    location: 'Ulm',
-    systemId: 'dott-ulm',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/ulm/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Wiesbaden',
-    location: 'Wiesbaden',
-    systemId: 'dott-wiesbaden',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/wiesbaden/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Wolfsburg',
-    location: 'Wolfsburg',
-    systemId: 'dott-wolfsburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/wolfsburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Zwickau',
-    location: 'Zwickau',
-    systemId: 'dott-zwickau',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/zwickau/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
-    name: 'Dott Überlingen',
-    location: 'Überlingen',
-    systemId: 'dott-uberlingen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/uberlingen/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -3496,6 +2651,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
+    name: 'Lastenkarle Karlsruhe',
+    location: 'Karlsruhe',
+    systemId: 'lastenkarle',
+    url: 'https://lastenkarle.de/',
+    autoDiscoveryUrl:
+        'https://api.mobidata-bw.de/sharing/gbfs/v3/lastenkarle/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
     name: 'LastenVelo Freiburg',
     location: 'Freiburg',
     systemId: 'lastenvelo_fr',
@@ -3595,6 +2760,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
+    name: 'meinRad',
+    location: 'Mainz',
+    systemId: 'nextbike_mz',
+    url: 'https://www.mainzer-mobilitaet.de/mehr-mobilitaet/meinrad/',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_mz/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
     name: 'meinSiggi',
     location: 'Bielefeld',
     systemId: 'nextbike_dg',
@@ -3645,11 +2820,21 @@ const List<GbfsSystem> gbfsSystems = [
   GbfsSystem(
     countryCode: 'DE',
     name: 'movemix_bike',
-    location: 'Halle, DE',
+    location: 'Halle',
     systemId: 'nextbike_mx',
     url: 'https://www.movemix-bike.de/',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_mx/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
+    name: 'MV-Rad',
+    location: 'Mecklenburg-Vorpommern',
+    systemId: 'nextbike_um',
+    url: 'https://mv-rad.de/',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_um/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -3805,7 +2990,7 @@ const List<GbfsSystem> gbfsSystems = [
   GbfsSystem(
     countryCode: 'DE',
     name: 'OberSchwabenMobil CarSharing',
-    location: 'Halle (Saale)',
+    location: 'Ravensburg',
     systemId: 'oberschwabenmobil',
     url: 'https://www.oberschwabenmobil.de/',
     autoDiscoveryUrl:
@@ -3835,7 +3020,7 @@ const List<GbfsSystem> gbfsSystems = [
   GbfsSystem(
     countryCode: 'DE',
     name: 'Roche - Bike',
-    location: 'Mannheim, DE',
+    location: 'Mannheim',
     systemId: 'nextbike_rr',
     url: 'https://www.nextbike.de/dcs-bike/',
     autoDiscoveryUrl:
@@ -3910,6 +3095,16 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://stadtrad-greifswald.de/',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_ug/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
+    name: 'StadtRad Neustrelitz',
+    location: 'Neustrelitz',
+    systemId: 'nextbike_st',
+    url: 'https://stadtrad-neustrelitz.de/',
+    autoDiscoveryUrl:
+        'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_st/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -4156,6 +3351,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
+    name: 'Zeus Donaueschingen',
+    location: 'Donaueschingen',
+    systemId: 'zeus_donaueschingen',
+    url: 'https://zeusscooters.com/',
+    autoDiscoveryUrl:
+        'https://api.mobidata-bw.de/sharing/gbfs/v3/zeus_donaueschingen/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
     name: 'Zeus Duisburg',
     location: 'Druisburg',
     systemId: 'zeus_duisburg',
@@ -4193,8 +3398,8 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Zeus Goppingen',
-    location: 'Goppingen',
+    name: 'Zeus Göppingen',
+    location: 'Göppingen',
     systemId: 'zeus_goppingen',
     url: 'https://zeusscooters.com/',
     autoDiscoveryUrl: 'https://zeus.city/api/v1/mds/gbfs/goppingen/gbfs.json',
@@ -4280,6 +3485,16 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://zeusscooters.com/',
     autoDiscoveryUrl: 'https://zeus.city/api/v1/mds/gbfs/konstanz/gbfs.json',
     supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
+    name: 'Zeus Leimen',
+    location: 'Leimen',
+    systemId: 'zeus_leimen_walldorf_wiesloch',
+    url: 'https://zeusscooters.com/',
+    autoDiscoveryUrl:
+        'https://api.mobidata-bw.de/sharing/gbfs/v3/zeus_leimen_walldorf_wiesloch/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
   ),
   GbfsSystem(
     countryCode: 'DE',
@@ -4385,6 +3600,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
+    name: 'Zeus Singen',
+    location: 'Singen',
+    systemId: 'zeus_singen',
+    url: 'https://zeusscooters.com/',
+    autoDiscoveryUrl:
+        'https://api.mobidata-bw.de/sharing/gbfs/v3/zeus_singen/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
     name: 'Zeus Straubing',
     location: 'Straubing',
     systemId: 'zeus_straubing',
@@ -4394,20 +3619,20 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'DE',
-    name: 'Zeus Tubingen',
-    location: 'Tubingen',
-    systemId: 'zeus_tubingen',
-    url: 'https://zeusscooters.com/',
-    autoDiscoveryUrl: 'https://zeus.city/api/v1/mds/gbfs/tubingen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_2],
-  ),
-  GbfsSystem(
-    countryCode: 'DE',
     name: 'Zeus Tuttlingen',
     location: 'Tuttlingen',
     systemId: 'zeus_tuttlingen',
     url: 'https://zeusscooters.com',
     autoDiscoveryUrl: 'https://zeus.city/api/v1/mds/gbfs/tuttlingen/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'DE',
+    name: 'Zeus Tübingen',
+    location: 'Tübingen',
+    systemId: 'zeus_tubingen',
+    url: 'https://zeusscooters.com/',
+    autoDiscoveryUrl: 'https://zeus.city/api/v1/mds/gbfs/tubingen/gbfs.json',
     supportedVersions: [GbfsVersion.v2_2],
   ),
   GbfsSystem(
@@ -4874,93 +4099,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'ES',
-    name: 'Dott Estepona',
-    location: 'Estepona',
-    systemId: 'dott-estepona',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/estepona/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Grado',
-    location: 'Grado',
-    systemId: 'dott-grado',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/grado/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Ibiza',
-    location: 'Ibiza',
-    systemId: 'dott-ibiza',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/ibiza/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott La-Manga',
-    location: 'La-Manga',
-    systemId: 'dott-la-manga',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/la-manga/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Lorca',
-    location: 'Lorca',
-    systemId: 'dott-lorca',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/lorca/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Murcia',
-    location: 'Murcia',
-    systemId: 'dott-murcia',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/murcia/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Tarragona',
-    location: 'Tarragona',
-    systemId: 'dott-tarragona',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tarragona/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Tenerife',
-    location: 'Tenerife',
-    systemId: 'dott-tenerife',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tenerife/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
-    name: 'Dott Tenerife-Sur',
-    location: 'Tenerife-Sur',
-    systemId: 'dott-tenerife-sur',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tenerife-sur/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'ES',
     name: 'Ganxeta',
     location: 'Reus',
     systemId: 'ganxeta_reus',
@@ -5334,6 +4472,16 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'FI',
+    name: 'Donkey Republic Helsinki',
+    location: 'Helsinki',
+    systemId: 'donkey_helsinki',
+    url: 'https://donkey.bike/',
+    autoDiscoveryUrl:
+        'https://stables.donkey.bike/api/public/gbfs/3.0/donkey_helsinki/gbfs.json',
+    supportedVersions: [GbfsVersion.v1_0, GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'FI',
     name: 'Donkey Republic Hyvinkää',
     location: 'Hyvinkää',
     systemId: 'donkey_hyvinkaa',
@@ -5461,407 +4609,6 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://stables.donkey.bike/api/public/gbfs/3.0/donkey_turku/gbfs.json',
     supportedVersions: [GbfsVersion.v1_0, GbfsVersion.v2_3, GbfsVersion.v3_0],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Donkey RepublicHelsinki',
-    location: 'Helsinki',
-    systemId: 'donkey_helsinki',
-    url: 'https://donkey.bike/',
-    autoDiscoveryUrl:
-        'https://stables.donkey.bike/api/public/gbfs/3.0/donkey_helsinki/gbfs.json',
-    supportedVersions: [GbfsVersion.v1_0, GbfsVersion.v2_3, GbfsVersion.v3_0],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Ekenäs',
-    location: 'Ekenäs',
-    systemId: 'dott-tammisaari',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tammisaari/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Espoo',
-    location: 'Espoo',
-    systemId: 'dott-espoo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/espoo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Hameenlinna',
-    location: 'Hameenlinna',
-    systemId: 'dott-hameenlinna',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hameenlinna/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Hamina',
-    location: 'Hamina',
-    systemId: 'dott-hamina',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hamina/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Hanko',
-    location: 'Hanko',
-    systemId: 'dott-hanko',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/hanko/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Helsinki',
-    location: 'Helsinki',
-    systemId: 'dott-helsinki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/helsinki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Hyvinkaa',
-    location: 'Hyvinkaa',
-    systemId: 'dott-hyvinkaa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hyvinkaa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Imatra',
-    location: 'Imatra',
-    systemId: 'dott-imatra',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/imatra/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Jakobstad',
-    location: 'Jakobstad',
-    systemId: 'dott-jakobstad',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jakobstad/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Jarvenpaa',
-    location: 'Jarvenpaa',
-    systemId: 'dott-jarvenpaa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jarvenpaa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Joensuu',
-    location: 'Joensuu',
-    systemId: 'dott-joensuu',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/joensuu/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Jyvaskyla',
-    location: 'Jyvaskyla',
-    systemId: 'dott-jyvaskyla',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jyvaskyla/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kaarina',
-    location: 'Kaarina',
-    systemId: 'dott-kaarina',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kaarina/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kajaani',
-    location: 'Kajaani',
-    systemId: 'dott-kajaani',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kajaani/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kalajoki',
-    location: 'Kalajoki',
-    systemId: 'dott-kalajoki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kalajoki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kangasala',
-    location: 'Kangasala',
-    systemId: 'dott-kangasala',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kangasala/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kerava',
-    location: 'Kerava',
-    systemId: 'dott-kerava',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kerava/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kirkkonummi',
-    location: 'Kirkkonummi',
-    systemId: 'dott-kirkkonummi',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kirkkonummi/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Klaukkala',
-    location: 'Klaukkala',
-    systemId: 'dott-klaukkala',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/klaukkala/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kokkola',
-    location: 'Kokkola',
-    systemId: 'dott-kokkola',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kokkola/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kotka',
-    location: 'Kotka',
-    systemId: 'dott-kotka',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/kotka/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kouvola',
-    location: 'Kouvola',
-    systemId: 'dott-kouvola',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kouvola/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Kuopio',
-    location: 'Kuopio',
-    systemId: 'dott-kuopio',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kuopio/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Lahti',
-    location: 'Lahti',
-    systemId: 'dott-lahti',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/lahti/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Lappeenranta',
-    location: 'Lappeenranta',
-    systemId: 'dott-lappeenranta',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lappeenranta/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Lempaala',
-    location: 'Lempaala',
-    systemId: 'dott-lempaala',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lempaala/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Mikkeli',
-    location: 'Mikkeli',
-    systemId: 'dott-mikkeli',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/mikkeli/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Myyrmaki',
-    location: 'Myyrmaki',
-    systemId: 'dott-myyrmaki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/myyrmaki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Naantali',
-    location: 'Naantali',
-    systemId: 'dott-naantali',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/naantali/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Nokia',
-    location: 'Nokia',
-    systemId: 'dott-nokia',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/nokia/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Porvoo',
-    location: 'Porvoo',
-    systemId: 'dott-porvoo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/porvoo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Raisio',
-    location: 'Raisio',
-    systemId: 'dott-raisio',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/raisio/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Rauma',
-    location: 'Rauma',
-    systemId: 'dott-rauma',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/rauma/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Riihimäki',
-    location: 'Riihimäki',
-    systemId: 'dott-riihimaki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/riihimaki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Salo',
-    location: 'Salo',
-    systemId: 'dott-salo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/salo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Seinajoki',
-    location: 'Seinajoki',
-    systemId: 'dott-seinajoki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/seinajoki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Tampere',
-    location: 'Tampere',
-    systemId: 'dott-tampere',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tampere/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Turku',
-    location: 'Turku',
-    systemId: 'dott-turku',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/turku/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Vaasa',
-    location: 'Vaasa',
-    systemId: 'dott-vaasa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/vaasa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FI',
-    name: 'Dott Vantaa',
-    location: 'Vantaa',
-    systemId: 'dott-vantaa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/vantaa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'FI',
@@ -6409,25 +5156,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'FR',
-    name: 'Dott Bourgoin Jallieu',
-    location: 'Bourgoin-Jallieu',
-    systemId: 'dott-bourgoin-jallieu',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bourgoin-jallieu/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FR',
-    name: 'Dott Gpseo',
-    location: 'Grand Paris Seine et Oise',
-    systemId: 'dott-gpseo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/gpseo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FR',
     name: 'Dott Lyon',
     location: 'Lyon',
     systemId: 'dott-lyon',
@@ -6461,16 +5189,6 @@ const List<GbfsSystem> gbfsSystems = [
     systemId: 'dott-siemu',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/siemu/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'FR',
-    name: 'Dott Tignes',
-    location: 'Tignes',
-    systemId: 'dott-tignes',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tignes/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -7514,7 +6232,7 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.leoandgo.com/',
     autoDiscoveryUrl:
         'https://download.data.grandlyon.com/files/rdata/lag_leoandgo.disponibilite/gbfs.json',
-    supportedVersions: [],
+    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'FR',
@@ -7545,6 +6263,16 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://valence.publicbikesystem.net/customer/gbfs/v3.0/gbfs.json',
     supportedVersions: [GbfsVersion.v1_1, GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Lime Antony',
+    location: 'Antony',
+    systemId: 'lime_antony',
+    url: 'https://www.li.me',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/antony/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
   ),
   GbfsSystem(
     countryCode: 'FR',
@@ -7604,6 +6332,36 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://li.me/',
     autoDiscoveryUrl:
         'https://data.lime.bike/api/partners/v2/gbfs/paris/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Lime Paris Saclay',
+    location: 'Paris-Saclay',
+    systemId: 'lime_paris_saclay',
+    url: 'https://li.me/',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/paris_saclay/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Lime Paris West',
+    location: 'Paris West',
+    systemId: 'lime_paris_west',
+    url: 'https://www.li.me',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/paris_west/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Lime Sceaux',
+    location: 'Sceaux',
+    systemId: 'lime_sceaux',
+    url: 'https://www.li.me',
+    autoDiscoveryUrl:
+        'https://data.lime.bike/api/partners/v2/gbfs/sceaux/gbfs.json',
     supportedVersions: [GbfsVersion.v2_2],
   ),
   GbfsSystem(
@@ -7727,6 +6485,16 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://www.mobility-parc.net/gbfs/v3/ARBRESLE/gbfs.json',
     supportedVersions: [GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Pays des Herbiers Mobilités',
+    location: 'Les Herbiers',
+    systemId: 'lesherbiers',
+    url: 'https://paysdesherbiersmobilites.ecovelo.mobi',
+    autoDiscoveryUrl:
+        'https://api.gbfs.v3.0.ecovelo.mobi/lesherbiers/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_2, GbfsVersion.v3_0],
   ),
   GbfsSystem(
     countryCode: 'FR',
@@ -8100,6 +6868,16 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.voi.com/',
     autoDiscoveryUrl:
         'https://api.voiapp.io/gbfs/fr/6bb6b5dc-1cda-4da7-9216-d3023a0bc54a/v2/66/gbfs.json',
+    supportedVersions: [GbfsVersion.v2_3],
+  ),
+  GbfsSystem(
+    countryCode: 'FR',
+    name: 'Voi Nantes',
+    location: 'Nantes',
+    systemId: 'voi_Nantes',
+    url: 'https://www.voi.com/',
+    autoDiscoveryUrl:
+        'https://api.voiapp.io/gbfs/fr/6bb6b5dc-1cda-4da7-9216-d3023a0bc54a/v2/421/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -8861,16 +7639,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'GB',
-    name: 'Dott Braintree',
-    location: 'Braintree',
-    systemId: 'dott-braintree',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/braintree/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'GB',
     name: 'Dott Bristol',
     location: 'Bristol',
     systemId: 'dott-bristol',
@@ -8887,16 +7655,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/brunel-university/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'GB',
-    name: 'Dott Chelmsford',
-    location: 'Chelmsford',
-    systemId: 'dott-chelmsford',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/chelmsford/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -9033,26 +7791,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.nextbike.gr/',
     autoDiscoveryUrl:
         'https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_gy/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'GR',
-    name: 'Dott Athens',
-    location: 'Athens',
-    systemId: 'dott-athens',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/athens/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'GR',
-    name: 'Dott Thessaloniki',
-    location: 'Thessaloniki',
-    systemId: 'dott-thessaloniki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/thessaloniki/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -9295,84 +8033,6 @@ const List<GbfsSystem> gbfsSystems = [
     supportedVersions: [GbfsVersion.v1_0, GbfsVersion.v2_3, GbfsVersion.v3_0],
   ),
   GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Budapest',
-    location: 'Budapest',
-    systemId: 'dott-budapest',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/budapest/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Dunaujvaros',
-    location: 'Dunaujvaros',
-    systemId: 'dott-dunaujvaros',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/dunaujvaros/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Godollo',
-    location: 'Godollo',
-    systemId: 'dott-godollo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/godollo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Gyor',
-    location: 'Gyor',
-    systemId: 'dott-gyor',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/gyor/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Hatvan',
-    location: 'Hatvan',
-    systemId: 'dott-hatvan',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hatvan/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Miskolc',
-    location: 'Miskolc',
-    systemId: 'dott-miskolc',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/miskolc/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Pápa',
-    location: 'Pápa',
-    systemId: 'dott-papa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/papa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'HU',
-    name: 'Dott Siófok',
-    location: 'Siófok',
-    systemId: 'dott-siofok',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/siofok/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
     countryCode: 'IE',
     name: 'Beryl Belfast',
     location: 'Belfast',
@@ -9429,16 +8089,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.bird.co',
     autoDiscoveryUrl: 'https://mds.bird.co/gbfs/v2/public/tel-aviv/gbfs.json',
     supportedVersions: [GbfsVersion.v1_1, GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IL',
-    name: 'Dott Herzliya',
-    location: 'Herzliya',
-    systemId: 'dott-herzliya',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/herzliya/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'IL',
@@ -9535,199 +8185,6 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://maas.zeus.cooltra.com/gbfs/turin/3.0/en/gbfs.json',
     supportedVersions: [GbfsVersion.v3_0],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Arezzo',
-    location: 'Arezzo',
-    systemId: 'dott-arezzo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/arezzo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Bari',
-    location: 'Bari',
-    systemId: 'dott-bari',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/bari/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Bergamo',
-    location: 'Bergamo',
-    systemId: 'dott-bergamo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bergamo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Cagliari',
-    location: 'Cagliari, IT',
-    systemId: 'dott-cagliari',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/cagliari/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Catania',
-    location: 'Catania',
-    systemId: 'dott-catania',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/catania/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Ferrara',
-    location: 'Ferrara',
-    systemId: 'dott-ferrara',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ferrara/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Genova',
-    location: 'Genova',
-    systemId: 'dott-genova',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/genova/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Jesolo',
-    location: 'Lido di Jesolo',
-    systemId: 'dott-jesolo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jesolo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Lecco',
-    location: 'Lecco',
-    systemId: 'dott-lecco',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/lecco/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Milan',
-    location: 'Milan',
-    systemId: 'dott-milan',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/milan/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Modena',
-    location: 'Modena',
-    systemId: 'dott-modena',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/modena/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Monza',
-    location: 'Monza',
-    systemId: 'dott-monza',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/monza/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Padua',
-    location: 'Padua',
-    systemId: 'dott-padua',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/padua/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Palermo',
-    location: 'Palermo',
-    systemId: 'dott-palermo',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/palermo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Reggio Emilia',
-    location: 'Reggio Emilia',
-    systemId: 'dott-reggio-emilia',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/reggio-emilia/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Rome',
-    location: 'Rome',
-    systemId: 'dott-rome',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/rome/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Trento',
-    location: 'Trento',
-    systemId: 'dott-trento',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/trento/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Turin',
-    location: 'Turin',
-    systemId: 'dott-turin',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/turin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Varese',
-    location: 'Varese',
-    systemId: 'dott-varese',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/varese/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'IT',
-    name: 'Dott Verona',
-    location: 'Verona',
-    systemId: 'dott-verona',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/verona/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'IT',
@@ -9853,15 +8310,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.hellocycling.jp',
     autoDiscoveryUrl:
         'https://api-public.odpt.org/api/v4/gbfs/hellocycling/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'JP',
-    name: 'kotobike',
-    location: 'Japan',
-    systemId: 'kotobike',
-    url: 'https://kotobike.jp',
-    autoDiscoveryUrl: 'https://app.kotobike.jp/api/exposed/v2/gbfs/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -10310,46 +8758,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'NL',
-    name: 'Dott Eindhoven',
-    location: 'Eindhoven',
-    systemId: 'dott-eindhoven',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/eindhoven/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NL',
-    name: 'Dott Groningen',
-    location: 'Groningen',
-    systemId: 'dott-groningen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/groningen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NL',
-    name: 'Dott Utrecht',
-    location: 'Utrecht',
-    systemId: 'dott-utrecht',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/utrecht/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NL',
-    name: 'Dott Veldhoven',
-    location: 'Veldhoven',
-    systemId: 'dott-veldhoven',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/veldhoven/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NL',
     name: 'Felyx Amsterdam',
     location: 'Amsterdam',
     systemId: 'cooltra_amsterdam',
@@ -10681,16 +9089,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/trondheim/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'NO',
-    name: 'Dott Ullensaker',
-    location: 'Ullensaker',
-    systemId: 'dott-ullensaker',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ullensaker/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -11058,12 +9456,70 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'NO',
+    name: 'Ryde Asker',
+    location: 'Asker',
+    systemId: 'rydeasker',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl: 'https://api.entur.io/mobility/v2/gbfs/v3/rydeasker/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
+    name: 'Ryde Baerum',
+    location: 'Baerum',
+    systemId: 'rydebaerum',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl:
+        'https://api.entur.io/mobility/v2/gbfs/v3/rydebaerum/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
+    name: 'Ryde Bodo',
+    location: 'Bodo',
+    systemId: 'rydebodo',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl: 'https://api.entur.io/mobility/v2/gbfs/v3/rydebodo/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
     name: 'Ryde Fredrikstad',
     location: 'Fredrikstad',
     systemId: 'rydefredrikstad',
     url: 'https://www.ryde-technology.com/',
     autoDiscoveryUrl:
         'https://api.entur.io/mobility/v2/gbfs/v3/rydefredrikstad/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
+    name: 'Ryde Larvik',
+    location: 'Larvik',
+    systemId: 'rydelarvik',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl:
+        'https://api.entur.io/mobility/v2/gbfs/v3/rydelarvik/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
+    name: 'Ryde Lillestrom',
+    location: 'Lillestrom',
+    systemId: 'rydelillestrom',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl:
+        'https://api.entur.io/mobility/v2/gbfs/v3/rydelillestrom/gbfs',
+    supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
+  ),
+  GbfsSystem(
+    countryCode: 'NO',
+    name: 'Ryde Lorenskog',
+    location: 'Lorenskog',
+    systemId: 'rydelorenskog',
+    url: 'https://www.ryde-technology.com/',
+    autoDiscoveryUrl:
+        'https://api.entur.io/mobility/v2/gbfs/v3/rydelorenskog/gbfs',
     supportedVersions: [GbfsVersion.v2_3, GbfsVersion.v3_0],
   ),
   GbfsSystem(
@@ -11407,460 +9863,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'PL',
-    name: 'Dott Bialogard',
-    location: 'Bialogard',
-    systemId: 'dott-bialogard',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bialogard/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Bielawa',
-    location: 'Bielawa',
-    systemId: 'dott-bielawa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bielawa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Braniewo',
-    location: 'Braniewo',
-    systemId: 'dott-braniewo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/braniewo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Brodnica',
-    location: 'Brodnica',
-    systemId: 'dott-brodnica',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/brodnica/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Brzeg',
-    location: 'Brzeg',
-    systemId: 'dott-brzeg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/brzeg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Brzeg Dolny',
-    location: 'Brzeg Dolny',
-    systemId: 'dott-brzeg-dolny',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/brzeg-dolny/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Bytom',
-    location: 'Bytom',
-    systemId: 'dott-bytom',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/bytom/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Chrzanów',
-    location: 'Chrzanów',
-    systemId: 'dott-chrzanow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/chrzanow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Częstochowa',
-    location: 'Częstochowa',
-    systemId: 'dott-czestochowa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/czestochowa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Dzierżoniów',
-    location: 'Dzierżoniów',
-    systemId: 'dott-dzierzoniow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/dzierzoniow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Dziwnów',
-    location: 'Dziwnów',
-    systemId: 'dott-dziwnow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/dziwnow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Elbląg',
-    location: 'Elbląg',
-    systemId: 'dott-elblag',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/elblag/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Gdansk',
-    location: 'Gdansk',
-    systemId: 'dott-gdansk',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gdansk/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Gdansk-Osowa',
-    location: 'Gdansk-Osowa',
-    systemId: 'dott-gdansk-osowa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gdansk-osowa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Goleniow',
-    location: 'Goleniow',
-    systemId: 'dott-goleniow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/goleniow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Grodzisk Mazowiecki',
-    location: 'Grodzisk Mazowiecki',
-    systemId: 'dott-grodzisk-mazowiecki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/grodzisk-mazowiecki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Grudziadz',
-    location: 'Grudziądz',
-    systemId: 'dott-grudziadz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/grudziadz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Gryfino',
-    location: 'Gryfino',
-    systemId: 'dott-gryfino',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gryfino/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Iława',
-    location: 'Iława',
-    systemId: 'dott-iława',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/iława/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Jastrzebie-Zdroj',
-    location: 'Jastrzebie-Zdroj',
-    systemId: 'dott-jastrzebie-zdroj',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jastrzebie-zdroj/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Jelenia Góra',
-    location: 'Jelenia Góra',
-    systemId: 'dott-jelenia-gora',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jelenia-gora/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Kalisz',
-    location: 'Kalisz',
-    systemId: 'dott-kalisz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kalisz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Katowice',
-    location: 'Katowice',
-    systemId: 'dott-katowice',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/katowice/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Konin',
-    location: 'Konin',
-    systemId: 'dott-konin',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/konin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Koscierzyna',
-    location: 'Koscierzyna',
-    systemId: 'dott-koscierzyna',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/koscierzyna/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Koszalin',
-    location: 'Koszalin',
-    systemId: 'dott-koszalin',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/koszalin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Kołobrzeg',
-    location: 'Kołobrzeg',
-    systemId: 'dott-kołobrzeg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kołobrzeg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Krakow',
-    location: 'Krakow',
-    systemId: 'dott-krakow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/krakow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Krynica Morska',
-    location: 'Krynica Morska',
-    systemId: 'dott-krynica-morska',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/krynica-morska/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Kwidzyn',
-    location: 'Kwidzyn',
-    systemId: 'dott-kwidzyn',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kwidzyn/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Lebork',
-    location: 'Lęborska',
-    systemId: 'dott-lebork',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lebork/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Legionowo',
-    location: 'Legionowo',
-    systemId: 'dott-legionowo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/legionowo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Leszno',
-    location: 'Leszno',
-    systemId: 'dott-leszno',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/leszno/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Lubliniec',
-    location: 'Lubliniec',
-    systemId: 'dott-lubliniec',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lubliniec/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Malbork',
-    location: 'Malbork',
-    systemId: 'dott-malbork',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/malbork/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Mielno',
-    location: 'Mielno',
-    systemId: 'dott-mielno',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/mielno/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Mikołów',
-    location: 'Mikołów',
-    systemId: 'dott-mikołow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/mikołow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Międzyzdroje',
-    location: 'Międzyzdroje',
-    systemId: 'dott-miedzyzdroje',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/miedzyzdroje/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Nowogard',
-    location: 'Nowogard',
-    systemId: 'dott-nowogard',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/nowogard/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Nowy Dwór Mazowiecki',
-    location: 'Nowy Dwór Mazowiecki',
-    systemId: 'dott-nowy-dwor-mazowiecki',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/nowy-dwor-mazowiecki/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Nowy Sącz',
-    location: 'Nowy Sącz',
-    systemId: 'dott-nowy-sacz',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/nowy-sacz/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Nowy-Targ',
-    location: 'Nowy-Targ',
-    systemId: 'dott-nowy-targ',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/nowy-targ/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Nysa',
-    location: 'Nysa',
-    systemId: 'dott-nysa',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/nysa/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Oleśnica',
-    location: 'Oleśnica',
-    systemId: 'dott-olesnica',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/olesnica/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Ostroda',
-    location: 'Ostróda, PL',
-    systemId: 'dott-ostroda',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ostroda/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Oława',
-    location: 'Oława',
-    systemId: 'dott-oława',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/oława/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
     name: 'Dott Oświęcim',
     location: 'Oświęcim',
     systemId: 'dott-oswiecim',
@@ -11871,294 +9873,12 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'PL',
-    name: 'Dott Piekary Śląskie',
-    location: 'Piekary Śląskie',
-    systemId: 'dott-piekary-slaskie',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/piekary-slaskie/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Police',
-    location: 'Police',
-    systemId: 'dott-police',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/police/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Poznan',
-    location: 'Poznan',
-    systemId: 'dott-poznan',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/poznan/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Prawobrzeże',
-    location: 'Prawobrzeże',
-    systemId: 'dott-prawobrzeze',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/prawobrzeze/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Pruszcz Gdański',
-    location: 'Pruszcz Gdański',
-    systemId: 'dott-pruszcz-gdanski',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/pruszcz-gdanski/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Płock',
-    location: 'Płock',
-    systemId: 'dott-płock',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/płock/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Rewal',
-    location: 'Rewal',
-    systemId: 'dott-rewal',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/rewal/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Ruda Śląska',
-    location: 'Ruda Śląska',
-    systemId: 'dott-ruda-slaska',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/ruda-slaska/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Siedlce',
-    location: 'Siedlce',
-    systemId: 'dott-siedlce',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/siedlce/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Skawina',
-    location: 'Skawina',
-    systemId: 'dott-skawina',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/skawina/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Sobieszewo Island',
-    location: 'Sobieszewo Island',
-    systemId: 'dott-sobieszewo-island',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/sobieszewo-island/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Sosnowiec',
-    location: 'Sosnowiec',
-    systemId: 'dott-sosnowiec',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/sosnowiec/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Starogard Gdański',
-    location: 'Starogard Gdański',
-    systemId: 'dott-starogard-gdanski',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/starogard-gdanski/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Swidnica',
-    location: 'Swidnica',
-    systemId: 'dott-swidnica',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/swidnica/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Swiecie',
-    location: 'Swiecie',
-    systemId: 'dott-swiecie',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/swiecie/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Szczecin',
-    location: 'Szczecin',
-    systemId: 'dott-szczecin',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/szczecin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Słupsk',
-    location: 'Słupsk',
-    systemId: 'dott-słupsk',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/słupsk/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Tarnowskie Góry',
-    location: 'Tarnowskie Góry',
-    systemId: 'dott-tarnowskie-gory',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/tarnowskie-gory/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Tczew',
-    location: 'Tczew',
-    systemId: 'dott-tczew',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/tczew/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Toruń',
-    location: 'Toruń',
-    systemId: 'dott-torun',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/torun/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Trzebnica',
-    location: 'Trzebnica',
-    systemId: 'dott-trzebnica',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/trzebnica/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Ustka',
-    location: 'Ustka',
-    systemId: 'dott-ustka',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/ustka/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Warsaw',
-    location: 'Warsaw',
-    systemId: 'dott-warsaw',
-    url: 'https://ridedott.com',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/warsaw/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
     name: 'Dott Wołomin',
     location: 'Wołomin',
     systemId: 'dott-wołomin',
     url: 'https://ridedott.com/',
     autoDiscoveryUrl:
         'https://gbfs.api.ridedott.com/public/v2/wo%C5%82omin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Wrocław',
-    location: 'Wrocław',
-    systemId: 'dott-wrocław',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/wrocław/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Zawiercie',
-    location: 'Zawiercie',
-    systemId: 'dott-zawiercie',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/zawiercie/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Łeba',
-    location: 'Łeba',
-    systemId: 'dott-łeba',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/łeba/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Łuków',
-    location: 'Łuków',
-    systemId: 'dott-łukow',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/łukow/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Świnoujście',
-    location: 'Świnoujście',
-    systemId: 'dott-swinoujscie',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/swinoujscie/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'PL',
-    name: 'Dott Żory',
-    location: 'Żory',
-    systemId: 'dott-zory',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/zory/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
@@ -12466,15 +10186,6 @@ const List<GbfsSystem> gbfsSystems = [
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
-    countryCode: 'QA',
-    name: 'Dott Doha',
-    location: 'Doha',
-    systemId: 'dott-doha',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/doha/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
     countryCode: 'RO',
     name: 'Alba Iulia Velocity',
     location: 'Alba Iulia',
@@ -12685,125 +10396,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'SE',
-    name: 'Dott Eskilstuna',
-    location: 'Eskilstuna',
-    systemId: 'dott-eskilstuna',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/eskilstuna/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Gothenburg',
-    location: 'Gothenburg',
-    systemId: 'dott-gothenburg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/gothenburg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Helsingborg',
-    location: 'Helsingborg',
-    systemId: 'dott-helsingborg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/helsingborg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Höganäs',
-    location: 'Höganäs',
-    systemId: 'dott-hoganas',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/hoganas/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Jonkoping',
-    location: 'Jonkoping',
-    systemId: 'dott-jonkoping',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/jonkoping/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Lidköping',
-    location: 'Lidköping',
-    systemId: 'dott-lidkoping',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/lidkoping/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Partille',
-    location: 'Partille',
-    systemId: 'dott-partille',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/partille/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Skovde',
-    location: 'Skovde',
-    systemId: 'dott-skovde',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/skovde/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Trollhättan',
-    location: 'Trollhättan',
-    systemId: 'dott-trollhattan',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/trollhattan/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Varberg',
-    location: 'Varberg',
-    systemId: 'dott-varberg',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/varberg/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Vaxjo',
-    location: 'Vaxjo',
-    systemId: 'dott-vaxjo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/vaxjo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
-    name: 'Dott Värnamo',
-    location: 'Värnamo',
-    systemId: 'dott-varnamo',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/varnamo/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SE',
     name: 'Gothenburg Cargo',
     location: 'Gothenburg',
     systemId: 'nextbike_zc',
@@ -12990,165 +10582,6 @@ const List<GbfsSystem> gbfsSystems = [
   ),
   GbfsSystem(
     countryCode: 'SK',
-    name: 'Dott Banska Bystrica',
-    location: 'Banska Bystrica',
-    systemId: 'dott-banska-bystrica',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/banska-bystrica/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Bardejov',
-    location: 'Bardejov',
-    systemId: 'dott-bardejov',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bardejov/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Bratislava',
-    location: 'Bratislava',
-    systemId: 'dott-bratislava',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/bratislava/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Humenne',
-    location: 'Humenne',
-    systemId: 'dott-humenne',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/humenne/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Kosice',
-    location: 'Kosice',
-    systemId: 'dott-kosice',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/kosice/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Liptovsky-Mikulas',
-    location: 'Liptovsky-Mikulas',
-    systemId: 'dott-liptovsky-mikulas',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/liptovsky-mikulas/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Martin',
-    location: 'Martin',
-    systemId: 'dott-martin',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/martin/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Michalovce',
-    location: 'Michalovce',
-    systemId: 'dott-michalovce',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/michalovce/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Nitra',
-    location: 'Nitra',
-    systemId: 'dott-nitra',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl: 'https://gbfs.api.ridedott.com/public/v2/nitra/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Pezinok',
-    location: 'Pezinok',
-    systemId: 'dott-pezinok',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/pezinok/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Poprad',
-    location: 'Poprad',
-    systemId: 'dott-poprad',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/poprad/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Prešov',
-    location: 'Prešov',
-    systemId: 'dott-presov',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/presov/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Prievidza',
-    location: 'Prievidza',
-    systemId: 'dott-prievidza',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/prievidza/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Trnava',
-    location: 'Trnava',
-    systemId: 'dott-trnava',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/trnava/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Vranov-Nad-Toplou',
-    location: 'Vranov-Nad-Toplou',
-    systemId: 'dott-vranov-nad-toplou',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/vranov-nad-toplou/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
-    name: 'Dott Zvolen',
-    location: 'Zvolen',
-    systemId: 'dott-zvolen',
-    url: 'https://ridedott.com/',
-    autoDiscoveryUrl:
-        'https://gbfs.api.ridedott.com/public/v2/zvolen/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'SK',
     name: 'nextbike Bratislava',
     location: 'Bratislava',
     systemId: 'nextbike_bi',
@@ -13250,15 +10683,6 @@ const List<GbfsSystem> gbfsSystems = [
     autoDiscoveryUrl:
         'https://honolulu.publicbikesystem.net/customer/gbfs/v3.0/gbfs.json',
     supportedVersions: [GbfsVersion.v1_1, GbfsVersion.v2_3, GbfsVersion.v3_0],
-  ),
-  GbfsSystem(
-    countryCode: 'US',
-    name: 'Bird Alexandria',
-    location: 'Alexandria, VA',
-    systemId: 'bird-alexandria',
-    url: 'https://www.bird.co',
-    autoDiscoveryUrl: 'https://mds.bird.co/gbfs/v2/public/alexandria/gbfs.json',
-    supportedVersions: [GbfsVersion.v1_1, GbfsVersion.v2_3],
   ),
   GbfsSystem(
     countryCode: 'US',
@@ -14153,16 +11577,6 @@ const List<GbfsSystem> gbfsSystems = [
     url: 'https://www.spin.pm',
     autoDiscoveryUrl:
         'https://mds.bird.co/gbfs/v2/public/provider/spin/akron/gbfs.json',
-    supportedVersions: [GbfsVersion.v2_3],
-  ),
-  GbfsSystem(
-    countryCode: 'US',
-    name: 'Spin Alexandria',
-    location: 'Alexandria, VA',
-    systemId: 'spin alexandria',
-    url: 'https://www.spin.pm',
-    autoDiscoveryUrl:
-        'https://mds.bird.co/gbfs/v2/public/provider/spin/alexandria/gbfs.json',
     supportedVersions: [GbfsVersion.v2_3],
   ),
   GbfsSystem(
